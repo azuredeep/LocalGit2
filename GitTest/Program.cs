@@ -13,15 +13,16 @@ namespace GitTest
             Console.WriteLine("My Git local App");
             Program p = new Program();
             p.SayMessage();
-            p.Say2ndMessage();
+            p.SayBranchMessage();
         }
         public void SayMessage()
         {
             Console.WriteLine("Change in Master branch");
         }
-        public void Say2ndMessage()
+        public void SayBranchMessage()
         {
-            Console.WriteLine("Second change in master branch");
+            Console.WriteLine("Change in Dev branch");
         }
+
     }
 }
