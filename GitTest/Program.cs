@@ -11,6 +11,12 @@ namespace GitTest
         static void Main(string[] args)
         {
             Console.WriteLine("My Git local App");
+            Program p = new Program();
+            p.SayMessage();
+        }
+        public void SayMessage()
+        {
+            Console.WriteLine("Change in Master branch");
         }
     }
 }
