@@ -13,6 +13,7 @@ namespace GitTest
             Console.WriteLine("My Git local App");
             Program p = new Program();
             p.SayMessage();
+            p.SayBranchMessage();
         }
         public void SayMessage()
         {
