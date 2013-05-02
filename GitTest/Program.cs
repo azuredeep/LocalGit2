@@ -14,6 +14,7 @@ namespace GitTest
             Program p = new Program();
             p.SayMessage();
             p.SayBranchMessage();
+            p.Say2ndMessage();
         }
         public void SayMessage()
         {
@@ -24,5 +25,9 @@ namespace GitTest
             Console.WriteLine("Change in Dev branch");
         }
 
+        public void Say2ndMessage()
+        {
+            Console.WriteLine("Second change in master branch");
+        }
     }
 }
