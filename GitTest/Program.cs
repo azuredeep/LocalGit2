@@ -18,5 +18,10 @@ namespace GitTest
         {
             Console.WriteLine("Change in Master branch");
         }
+        public void SayBranchMessage()
+        {
+            Console.WriteLine("Change in Dev branch");
+        }
+
     }
 }
